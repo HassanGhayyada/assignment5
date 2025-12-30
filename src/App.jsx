@@ -9,7 +9,18 @@ function App() {
       <div>
         <h1>React Product Dashboard</h1>
 
-        <button onClick={() => setShowProducts(!showProducts)}>
+        <button onClick={() => setShowProducts(!showProducts)}
+          style= {{
+            backgroundColor: "#2563eb", 
+            color: "white",
+            border: "none",
+            padding: "0.6rem 1.2rem",
+            borderRadius: "6px",
+            fontSize: "1rem",
+            cursor: "pointer",
+            marginBottom: "1rem"
+          }}
+          >
           {showProducts ? "Hide products" : "Show Products"}
         </button>
 
