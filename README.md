@@ -1,16 +1,19 @@
-# React + Vite
+--File Organization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App.jsx: Root component that manages state and UI behavior
 
-Currently, two official plugins are available:
+ProductList.jsx: Renders a list of products using static data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product.jsx: Displays individual product information using props
 
-## React Compiler
+Card.jsx: Reusable layout component using children
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+main.jsx: Entry point that renders the React app
 
-## Expanding the ESLint configuration
+--Challenges Faced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+One of the difficulties I encountered was Understanding the mechanics of Vite project initialization. This was particularly the case during the initial project and environment configuration on the Windows environment. It took time to learn how Vite organizes a React project.
+
+Another thing was to understand the logic of the application, including how a project can be split up into components, how state can be placed, and so on. This application planning also gave some extra time to solidify the fundamental concept of React.
+
+Lastly, the integration of the App.jsx component proved difficult, especially when dealing with component states, event listeners, and rendering. To solve this problem, learning and utilizing help from other sources(Chatgpt and Youtube) assisted me in comprehending the subjects effectively and completing the component.
