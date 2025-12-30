@@ -17,7 +17,7 @@ function App() {
           <input
           type='text'
           value={name}
-          onChange={(e) => setNam(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
           placeholder='Enter Your Name'
           />
         </div>
